@@ -1,2 +1,2 @@
-# online-shop-market
-This is the new shop
+# online-store
+This is website for an online shopping store

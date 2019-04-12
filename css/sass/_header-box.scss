@@ -1,0 +1,79 @@
+
+.header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.466)),url(../../images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    &__box {
+        width: 100%;
+        background-color: $gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 4rem;
+        box-sizing: border-box;
+    }
+
+
+    &__input {
+        border: none;
+        border-radius: 10px;
+        padding: .7rem 2rem;
+        box-shadow: 3px 3px 0 $gray;
+    }
+
+    &__icon {
+
+        color: $light-black;
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    &__user {
+
+
+        a {
+
+            text-decoration: none;
+            color: orange;
+            margin-right: 1rem;
+
+        }
+    }
+
+    &__content {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        // transform: translateY(-25%);
+        color: #fff;
+    
+        h1 {
+            color: $light-gray;
+            font-size: 1.7rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: $light-gray;
+            text-transform: uppercase;
+            background-color: orange;
+            display: inline-block;
+            padding: .7rem 1.1rem;
+        }
+    
+    
+    }
+
+}
